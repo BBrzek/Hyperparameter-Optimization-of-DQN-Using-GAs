@@ -4,7 +4,8 @@
 Each file contains a unique name representing the selection_crossover_mutation.csv configuration under which it was generated. The files contain 3,200 records, each representing an individual across successive generations for the given genetic algorithm.
 
 - The first column represents the GA iteration number.
-- The second column contains information about the optimized hyperparameters and their values in the following order: Gamma, Learning Rate, Replay Buffer Size, and Agent's Neural Network Update Frequency.
+- The second column contains information about the optimized hyperparameters and their values in the following order: Gamma, Learning Rate, Replay Buffer Size, and Agent's Neural Network Update Frequency. The structure of this column is as follow:
+  [[gamma value, (range)], [learning rate, (range)], [replay buffer size, (range)], [target update frequency, (range)]]
 - The third column provides the agent's performance for the given configuration.
 - The fourth column shows the highest score achieved in a specific generation.
 
